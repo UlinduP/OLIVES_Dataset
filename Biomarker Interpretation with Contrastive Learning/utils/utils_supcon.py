@@ -1,5 +1,4 @@
 from torchvision import transforms, datasets
-#from datasets.fisheye_dataset import FisheyeFordDataset
 from datasets.oct_dataset import OCTDataset
 from datasets.biomarker import BiomarkerDatasetAttributes
 from utils.utils import TwoCropTransform
